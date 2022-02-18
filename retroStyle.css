@@ -1,0 +1,130 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+header, section, aside, footer, nav, article, hgroup{
+    display:block;	
+}
+body{
+    background-image: url("img/retrogamerbackground.jpg");
+    background-color: #cccccc;
+    color:white;
+    font-family:"lucida console",Monaco,monospace;
+    
+	
+}
+#whole_site{
+    width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    /*background-color: #1E1E23;*/
+	
+}
+#main_header{
+    border:5px solid blue;
+    text-align:center;
+    padding: 30px 30px;
+    background: url(img/ryustance.gif) center left / 150px 150px no-repeat, url(img/sonicandtailsrun.gif) center right / 150px 150px no-repeat;
+    background-color:#1E1E23;
+    
+    
+}
+#main_nav{
+    float:left;
+    width: 100px;
+    margin: 30px 0px;
+    padding: 100px 20px;
+    background-color: #1E1E23;
+    border:5px solid blue;
+}
+#main_section{
+	
+    float: left;
+    width: 530px;
+    margin: 30px; /* 660 + 30(left) + 30(right) = 720, 280 left */
+    padding: 20px 15px 20px 20px;
+    background-color: #1E1E23;
+    border:5px solid blue;
+    color:white;
+        
+}
+#main_sidebar{
+	
+    float: left;
+    width: 165px;
+    margin: 30px 0px;
+    padding: 20px 20px 20px 20px;
+    background-color: #1E1E23;
+    border: 5px solid blue;
+	
+}
+#main_footer{
+    clear: both;
+    border:5px solid blue;
+    text-align: center;
+    background-color:#1E1E23;
+}
+ #list2{
+    font-size:75%
+}
+div.formRow{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 7px 0px;
+}
+div.formRow > *{
+    -webkit-flex: 1 1 150px;
+    flex: 1 1 150px;
+}
+form#contactpage{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+form#contactpage > fieldset{
+    border-radius: 20px;
+    -webkit-flex: 1 1 300px;
+    flex: 1 1 300;
+    font-size: 0.85em;
+    padding: 10px;
+    margin: 10px;
+}
+div#buttons{
+    text-align:center;
+    width:100%;
+}
+input[type='submit'], input[type='reset']{
+    font-size:1.2em;
+    padding:5px;
+    margin:15px;
+}
+ol{
+    margin: 0 0 0 30px;
+    list-style-position: inside;
+    text-align: center;
+}
+.olParagraphs{
+    text-align:left;
+}
+ul{
+    margin: 0 0 0 10px;
+    list-style-type: none;
+}
+li{
+    margin: 0 0 20px 0;
+}
+p{
+    text-indent: 40px;
+}
+table{
+    width: 100%;    
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:red;
+}
